@@ -4,12 +4,13 @@ epochs:          100 # Number of epochs to train the model
 number_classes:  1 # Number of classes in the target dataset
 batch_size_tr:   16 # Batch size for train
 batch_size_va:   1 # Batch size for validationn 
-saved_model:     'weights_isic16.model'   # leave '' will use a default value
+saved_model:     'weights_isic2018.model'   # leave '' will use a default value
 test_model:      'best_dice_weight_path/best_dice.pth'
-weight_path:    '/isic16/'
-path_to_data:    './Skin Dataset/ISIC2016_processed_data/' #path to dataset
+weight_path:    '/isic18/'
+path_to_data:    './Skin Dataset/ISIC2018_processed_data/' #path to dataset
 patience:        10 # number of epochs without improvement to do before finishing training early.
-save_result:     '/isic2016/' # path to save results
+save_result:     '/isic2018/' # path to save results
 progress_p:      0.1 # value between 0-1 shows the number of time we need to report training progress in each epoch
 pretrained:      0 # load the previously trained weight or no value should either 1 or 0
-is_test:        True     # isic2016没有验证集
+is_test:        False     # isic2016没有验证集
+
