@@ -3,7 +3,7 @@
 # LGANet: Local-Global Augmentation Network for Skin Lesion Segmentation
 This repo is the official implementation  for the paper: **"LGANet: Local-Global Augmentation Network for Skin Lesion Segmentation"** at ISBI 2023.
 
-This paper proposes a novel framework, LGANet, for skin lesion segmentation. Particularly, two module, LFM and GAM are constructed. LFM aims at learning local inter-pixel correlations to augment local detailed information around boundary regions. While GAM aims at learning global context at a finer level to augment global information.
+This paper proposes a novel framework, LGANet, for skin lesion segmentation. Particularly, two module, LFM and GAM are constructed. LFM aims at learning local inter-pixel correlations to augment local detailed information around boundary regions, while GAM aims at learning global context at a finer level to augment global information.
 ## Architecture
 ![Network](https://img-blog.csdnimg.cn/bf41c11f82ec4cd382d3dd916829de98.png#pic_center)Fig.2. The structure of the proposed LGANet. LFM and GAM are integrated into the Transformer encoder based framework to learn local detailed information around boundary and augment global context respectively, where dense concatenations are used for final pixel-level prediction.
 
@@ -22,7 +22,7 @@ This paper proposes a novel framework, LGANet, for skin lesion segmentation. Par
 
 ## Datasets
 
- - The ISIC 2018  and ISIC 2016 dataset could be acquired from [the official site](https://challenge.isic-archive.com/data/).
+ - The ISIC 2018  and ISIC 2016 dataset can be acquired from [the official site](https://challenge.isic-archive.com/data/).
  - Run Prepare_data.py for data preperation.
 
 
