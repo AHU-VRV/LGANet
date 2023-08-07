@@ -41,5 +41,22 @@ Some of the codes in this repo are borrowed from:
  - [PVT](https://github.com/whai362/PVT)
 
 
- 
+##Citation
+Please cite the following paper if you think this project is useful for your work. Thanks.
+
+@inproceedings{
+
+GuoFWZL2023LGANet,
+
+author = { Guo, Qingqing and Fang, Xianyong and Wang, Linbo and Zhang, Enming and Liu, Zhengyi},
+
+booktitle = {Proceedings of the 20th IEEE International Symposium on Biomedical Imaging - ISBI 2023},
+
+title = {{LGANet: Local-global augmentation network for skin lesion segmentation}},
+
+address = {Cartagena, Colombia},
+
+year = {2023}
+
+}
 
